@@ -1,38 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-body{
-font-family: "Poppins", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
 }
-.top-header-left li{
-    list-style: none;
+.top-header-left li {
+  list-style: none;
 }
-.top-header-left{
-    padding: 12px 0 ;
+.top-header-left {
+  padding: 12px 0;
 }
-.header-top{
-    background: black;
-    height: 40px;
-
+.header-top {
+  background: black;
+  height: 40px;
 }
-.fas{
-    color: #fff;
+.fas {
+  color: #fff;
 }
-.fab{
-    color: #fff;
+.fab {
+  color: #fff;
 }
-.far{
-    color: #fff;
+.far {
+  color: #fff;
 }
-li{
-    color: #fff;
-    font-size: 13px;
-    margin-right: 25px;
+li {
+  color: #fff;
+  font-size: 13px;
+  margin-right: 25px;
 }
-a{
-    text-decoration: none;
-    background: transparent;
+a {
+  text-decoration: none;
+  background: transparent;
 }
-.top-header-right{
-    text-align: right;
-    padding: 12px 0 ;
-
+.top-header-right {
+  text-align: right;
+  padding: 12px 0;
+}
+.card-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+.card-img {
+  max-width: 100%;
+}
+.nav-item:hover {
+  background-color: #b7b7a4;
+  border-radius: 20px;
+  border: 0;
+}
+.nav-item1 {
+  background-color: #b7b7a4;
+  border-radius: 20px;
+}
+.nav-link {
+  font-size: 16px;
+}
+.hide {
+  visibility: hidden;
+}
+.photos:hover .hide {
+  visibility: visible;
+  color: black;
+}
+.back {
+  background-image: url(./images/Parallax-1.jpg);
+  background-attachment: fixed;
+  max-width: 1500px;
+  background-position: 50% 53.3733%;
+  height: 100vh;
 }
